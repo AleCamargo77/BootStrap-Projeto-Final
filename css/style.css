@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.container-fluid00 img {
+  width: 250px;
+  height: auto;
+}
+
+.container-fluid00 {
+  background-image: url("../images/home/01.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title-main-one {
+  margin-top: 12rem;
+}
+
+.title-main-one button {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.arrow img {
+  display: inline-block;
+  width: 120px;
+  margin-top: 5px;
+}
+
+.container-fluid01 {
+  background-image: url("../images/home/03.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container-fluid02 {
+  background-image: url("../images/home/02.gif");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-fluid03 {
+  background-image: url("../images/home/04.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  background-color: #000;
+  height: 4rem;
+}
+
+.container-fluid04 img {
+  width: 250px;
+  height: auto;
+}
+
+.container-fluid04 {
+  background-image: url("../images/humanFlight/01.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-fluid05 {
+  background-image: url("../images/humanFlight/02.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-fluid06 {
+  background-image: url("../images/humanFlight/03.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-fluid07 {
+  background-image: url("../images/humanFlight/04.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-fluid08 {
+  background-image: url("../images/humanFlight/05.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.titles-human p {
+  font-size: 30px;
+}
+
+.titles-human h1 {
+  font-size: 120px;
+}
+
+.arrow-human img {
+  display: inline-block;
+  width: 120px;
+  margin-top: 5px;
+}
+
+.p-main-two {
+  font-size: 20px;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.title-mission {
+  margin-top: 10rem;
+}
+
+.btn-explorer {
+  margin-left: 55%;
+}
+
+.title-mission h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-left: 55%;
+}
+
+.title-mission p {
+  font-size: 18px;
+  margin-left: 55%;
+}
+
+.title-mission button {
+  text-transform: uppercase;
+}
+
+.spacial-station {
+  margin-top: 18rem;
+}
+
+.spacial-station h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.spacial-btn {
+  text-transform: uppercase;
+}
+
+.mission-moon {
+  margin-top: 14rem;
+}
+
+.moon-p {
+  margin-left: 55%;
+  font-size: 18px;
+}
+
+.moon-title {
+  margin-left: 55%;
+  font-size: 60px;
+  font-weight: 700;
+  margin-left: 55%;
+}
+
+.moon-btn {
+  margin-left: 55%;
+  text-transform: uppercase;
+}
+
+.marte {
+  margin-top: 15rem;
+}
+
+.marte h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.information-content {
+  background-color: #000;
+  padding: 10rem;
+}
+
+.container-fluid09 {
+  background-image: url("../images/falcon9/01.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-fluid09 img {
+  width: 250px;
+  height: auto;
+}
+
+.container-fluid10 {
+  background-image: url("../images/falcon9/02.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-fluid12 {
+  background-image: url("../images/falcon9/08.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.titles-falcon {
+  margin-top: 10rem;
+}
+
+.titles-falcon h1 {
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.titles-falcon p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.info-falcon h1 {
+  font-size: 80px;
+}
+
+.info-falcon p {
+  font-size: 22px;
+}
+
+.text-falcon {
+  max-width: 50%;
+  line-height: 2.5rem;
+}
+
+.merlin {
+  padding: 10rem;
+}
+
+.merlin-content p {
+  max-width: 50%;
+  margin-top: 1rem;
+}
+
+.merlin-table {
+  padding: 20px;
+  max-width: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
