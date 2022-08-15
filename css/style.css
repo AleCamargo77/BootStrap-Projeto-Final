@@ -1,4 +1,8 @@
 * {
+  color: #fff;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,14 +11,20 @@
 
 .container-fluid00 img {
   width: 250px;
+  margin-right: 40px;
   height: auto;
 }
 
 .container-fluid00 {
   background-image: url("../images/home/01.jpg");
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+}
+
+#navItem:hover {
+  color: #b9b9b9;
 }
 
 .title-main-one {
@@ -22,14 +32,14 @@
 }
 
 .title-main-one button {
-  font-size: 14px;
+  font-size: 18px;
   text-transform: uppercase;
+  padding: 15px 30px;
 }
 
 .arrow img {
-  display: inline-block;
-  width: 120px;
   margin-top: 5px;
+  width: 100px;
 }
 
 .container-fluid01 {
@@ -56,9 +66,26 @@
 
 .footer {
   background-color: #000;
-  height: 4rem;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+@media (max-width: 452px) {
+  .footer p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 336px) {
+  .footer p {
+    font-size: 10px;
+  }
+  .title-main-one button {
+    font-size: 14px;
+    padding: 5px;
+  }
+}
 .container-fluid04 img {
   width: 250px;
   height: auto;
@@ -100,7 +127,7 @@
 }
 
 .titles-human p {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .titles-human h1 {
@@ -109,8 +136,8 @@
 
 .arrow-human img {
   display: inline-block;
-  width: 120px;
-  margin-top: 5px;
+  width: 150px;
+  margin-top: 10rem;
 }
 
 .p-main-two {
@@ -190,6 +217,11 @@
   padding: 10rem;
 }
 
+@media (max-width: 336px) {
+  .footer p {
+    font-size: 10px;
+  }
+}
 .container-fluid09 {
   background-image: url("../images/falcon9/01.jpg");
   height: 100vh;
@@ -214,6 +246,11 @@
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.carousel-item {
+  height: 50%;
+  width: 50%;
 }
 
 .titles-falcon {
@@ -241,6 +278,17 @@
 .text-falcon {
   max-width: 50%;
   line-height: 2.5rem;
+  margin-top: 10rem;
+}
+
+#parag-text {
+  font-size: 24px;
+  height: 25px;
+  margin: 0 auto;
+  width: 1000px;
+  top: -40px;
+  color: white;
+  background-color: #000;
 }
 
 .merlin {
@@ -248,13 +296,14 @@
 }
 
 .merlin-content p {
-  max-width: 50%;
+  max-width: 45%;
   margin-top: 1rem;
+  font-size: 20px;
 }
 
 .merlin-table {
   padding: 20px;
-  max-width: 50%;
+  max-width: 45%;
 }
 
 /*# sourceMappingURL=style.css.map */

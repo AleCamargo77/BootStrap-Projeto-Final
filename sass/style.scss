@@ -1,3 +1,11 @@
+@import "./others/variables.scss";
+
+@import "./pages/home.scss";
+
+@import "./pages/falcon9.scss";
+
+@import "./pages/human.scss";
+
 * {
   margin: 0;
   padding: 0;
@@ -8,14 +16,20 @@
 //PAGE INDEX (MAIN)
 .container-fluid00 img {
   width: 250px;
+  margin-right: 40px;
   height: auto;
 }
 
 .container-fluid00 {
   background-image: url("../images/home/01.jpg");
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+}
+
+#navItem:hover {
+  color: $nav-hover;
 }
 
 .title-main-one {
@@ -23,14 +37,14 @@
 }
 
 .title-main-one button {
-  font-size: 14px;
-  text-transform: uppercase;
+  font-size: 18px;
+  text-transform: $text-button;
+  padding: $padding-button;
 }
 
 .arrow img {
-  display: inline-block;
-  width: 120px;
   margin-top: 5px;
+  width: 100px;
 }
 
 .container-fluid01 {
@@ -57,7 +71,26 @@
 
 .footer {
   background-color: #000;
-  height: 4rem;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 452px) {
+  .footer p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 336px) {
+  .footer p {
+    font-size: 10px;
+  }
+  .title-main-one button {
+    font-size: 14px;
+    padding: 5px;
+  }
 }
 
 // PAGE HUMAN
@@ -100,7 +133,7 @@
 }
 
 .titles-human p {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .titles-human h1 {
@@ -109,8 +142,8 @@
 
 .arrow-human img {
   display: inline-block;
-  width: 120px;
-  margin-top: 5px;
+  width: 150px;
+  margin-top: 10rem;
 }
 
 .p-main-two {
@@ -189,6 +222,12 @@
   padding: 10rem;
 }
 
+@media (max-width: 336px) {
+  .footer p {
+    font-size: 10px;
+  }
+}
+
 // FALCON9
 .container-fluid09 {
   background-image: url("../images/falcon9/01.jpg");
@@ -243,22 +282,59 @@
 .text-falcon {
   max-width: 50%;
   line-height: 2.5rem;
+  margin-top: 10rem;
 }
 
 // .carousel-primary {
 //   height: 100vh;
 // }
 
+// .carousel-texts {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-around;
+// }
+
+#container-fluid13 {
+  // height: 100vh;
+  // background-size: cover;
+  // background-repeat: no-repeat;
+}
+
+// #container15 {
+//   height: 400px;
+// }
+
+#parag-text {
+  // position: relative;
+  font-size: 24px;
+  height: 25px;
+  margin: 0 auto;
+  width: 1000px;
+  top: -40px;
+  // bottom: -100px;
+  // bottom: 50px;
+  // top: 50px;
+  // margin: 0 auto;
+  // position: relative;
+  color: white;
+  background-color: #000;
+  // height: 10px;
+  // padding-top: -10rem;
+  // top: 20px;
+}
+
 .merlin {
   padding: 10rem;
 }
 
 .merlin-content p {
-  max-width: 50%;
+  max-width: 45%;
   margin-top: 1rem;
+  font-size: 20px;
 }
 
 .merlin-table {
   padding: 20px;
-  max-width: 50%;
+  max-width: 45%;
 }
