@@ -222,6 +222,18 @@
     font-size: 10px;
   }
 }
+#carousel01,
+#carousel02,
+#carousel03,
+#carousel04,
+#carousel05,
+#carousel06,
+#carousel07,
+#carousel08,
+#carousel09 {
+  height: 100vh;
+}
+
 .container-fluid09 {
   background-image: url("../images/falcon9/01.jpg");
   height: 100vh;
@@ -246,11 +258,6 @@
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.carousel-item {
-  height: 50%;
-  width: 50%;
 }
 
 .titles-falcon {
@@ -279,16 +286,6 @@
   max-width: 50%;
   line-height: 2.5rem;
   margin-top: 10rem;
-}
-
-#parag-text {
-  font-size: 24px;
-  height: 25px;
-  margin: 0 auto;
-  width: 1000px;
-  top: -40px;
-  color: white;
-  background-color: #000;
 }
 
 .merlin {

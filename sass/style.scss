@@ -94,6 +94,7 @@
 }
 
 // PAGE HUMAN
+
 .container-fluid04 img {
   width: 250px;
   height: auto;
@@ -229,6 +230,18 @@
 }
 
 // FALCON9
+#carousel01,
+#carousel02,
+#carousel03,
+#carousel04,
+#carousel05,
+#carousel06,
+#carousel07,
+#carousel08,
+#carousel09 {
+  height: 100vh;
+}
+
 .container-fluid09 {
   background-image: url("../images/falcon9/01.jpg");
   height: 100vh;
@@ -252,10 +265,10 @@
   background-repeat: no-repeat;
 }
 
-.carousel-item {
-  height: 50%;
-  width: 50%;
-}
+// .carousel-item {
+//   height: 50%;
+//   width: 50%;
+// }
 
 .titles-falcon {
   margin-top: 10rem;
@@ -283,45 +296,6 @@
   max-width: 50%;
   line-height: 2.5rem;
   margin-top: 10rem;
-}
-
-// .carousel-primary {
-//   height: 100vh;
-// }
-
-// .carousel-texts {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: space-around;
-// }
-
-#container-fluid13 {
-  // height: 100vh;
-  // background-size: cover;
-  // background-repeat: no-repeat;
-}
-
-// #container15 {
-//   height: 400px;
-// }
-
-#parag-text {
-  // position: relative;
-  font-size: 24px;
-  height: 25px;
-  margin: 0 auto;
-  width: 1000px;
-  top: -40px;
-  // bottom: -100px;
-  // bottom: 50px;
-  // top: 50px;
-  // margin: 0 auto;
-  // position: relative;
-  color: white;
-  background-color: #000;
-  // height: 10px;
-  // padding-top: -10rem;
-  // top: 20px;
 }
 
 .merlin {
