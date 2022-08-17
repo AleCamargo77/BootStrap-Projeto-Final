@@ -1,0 +1,157 @@
+// PAGE HUMAN
+
+.container-fluid04 img {
+  width: 250px;
+  margin-right: 40px;
+  height: auto;
+}
+
+#navItem:hover {
+  color: $nav-hover;
+}
+
+.container-fluid04 {
+  background-image: url("../images/humanFlight/01.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-fluid05 {
+  background-image: url("../images/humanFlight/02.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-fluid06 {
+  background-image: url("../images/humanFlight/03.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container-fluid07 {
+  background-image: url("../images/humanFlight/04.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container-fluid08 {
+  background-image: url("../images/humanFlight/05.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.titles-human p {
+  font-size: 35px;
+}
+
+.titles-human h1 {
+  font-size: 120px;
+}
+
+.arrow-human img {
+  margin-top: 5px;
+  width: 100px;
+}
+
+.p-main-two {
+  font-size: 20px;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.title-mission {
+  margin-top: 10rem;
+}
+
+.btn-explorer {
+  margin-left: 55%;
+}
+
+.title-mission h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-left: 55%;
+}
+
+.title-mission p {
+  font-size: 18px;
+  margin-left: 55%;
+}
+
+.title-mission button {
+  text-transform: uppercase;
+}
+
+.spacial-station {
+  margin-top: 18rem;
+}
+.spacial-station h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.spacial-btn {
+  text-transform: uppercase;
+}
+
+.mission-moon {
+  margin-top: 14rem;
+}
+
+.moon-p {
+  margin-left: 55%;
+  font-size: 18px;
+}
+
+.moon-title {
+  margin-left: 55%;
+  font-size: 60px;
+  font-weight: 700;
+  margin-left: 55%;
+}
+
+.moon-btn {
+  margin-left: 55%;
+  text-transform: uppercase;
+}
+
+.marte {
+  margin-top: 15rem;
+}
+
+.marte h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.information-content {
+  background-color: #000;
+  padding: 10rem;
+}
+
+.btnInfo button {
+  border: 2px solid #fff;
+  margin-right: 10px;
+}
+
+@media (max-width: 800px) {
+  .titles-human p {
+    font-size: 25px;
+  }
+
+  .titles-human h1 {
+    font-size: 60px;
+  }
+  .container-fluid05 p {
+    width: 600px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 336px) {
+  .footer p {
+    font-size: 10px;
+  }
+}
